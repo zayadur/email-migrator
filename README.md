@@ -267,7 +267,7 @@ EMAIL_MIGRATOR_TEST_CASE="$PWD/.cases/<your-session-id>" \
 Tests use synthetic MIME, private disposable state and fake IMAP/HTTP transports.
 Network connections are blocked; no live credentials, uploads or mail are used.
 The initial portable version has **not** been validated against live accounts.
-Source is version-controlled in the private
+Source is version-controlled in the public
 [`zayadur/email-migrator`](https://github.com/zayadur/email-migrator) repository.
 Case artifacts, build output, credentials and migration state are Git-ignored.
 
