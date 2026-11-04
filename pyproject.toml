@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "portable-email-migrator"
+version = "0.1.0"
+description = "Resumable, read-only-source IMAP and Gmail mailbox migration"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+mail-migrator = "mail_migrator.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mail_migrator*"]
